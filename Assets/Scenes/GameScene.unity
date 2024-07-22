@@ -1356,7 +1356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36d149e3717f7754ea9f50fc01146a8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
+  moveSpeed: 4
   rotationSpeed: 180
   bulletPrefab: {fileID: 806427092697994031, guid: d65f1bd4def6db84b8f190192e7c86fc, type: 3}
   grenadePrefab: {fileID: 806427092697994031, guid: 84c902963d695f44c86c0f28b34b47be, type: 3}
@@ -1904,6 +1904,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slowZonePrefab: {fileID: 5287488993058511760, guid: dbc02498f26a0d740a8186c1785e9311, type: 3}
   deathZonePrefab: {fileID: 8253395991410060190, guid: 4b554f7003d38714c9bd904b7181189b, type: 3}
+  slowZoneCount: 3
+  deathZoneCount: 2
   minDistanceBetweenZones: 3
   mapBoundsX: {x: -20, y: 20}
   mapBoundsZ: {x: -15, y: 15}
